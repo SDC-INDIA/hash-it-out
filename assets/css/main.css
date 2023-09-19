@@ -56,7 +56,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 .section-header h2 {
@@ -152,7 +152,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  background: #fff;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -161,13 +161,13 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
-  color: #fff;
+  background: whitesmoke;
+  /* color: #fff; */
 }
 
 .scroll-top.active {
@@ -1700,13 +1700,13 @@ section {
   background-color: var(--color-primary);
   height: 100%;
   padding: 20px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 15px;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: var(--color-primary);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1743,11 +1743,6 @@ section {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: #fff;
-  color: var(--color-primary);
 }
 
 .contact .php-email-form {
@@ -2849,3 +2844,18 @@ body{
       display: none;
   }
 }
+
+/* .contact {
+  background: rgb(100, 227, 255);
+  background: linear-gradient(
+      170deg,
+      rgba(100, 227, 255, 1) 40%,
+      rgba(23, 15, 30, 1) 65%
+  );
+} */
+
+/* .custom-contact-card {
+  padding: 10rem;
+  background-color:  !important;
+  border-radius: 15px !important;
+} */
