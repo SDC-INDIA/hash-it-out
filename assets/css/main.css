@@ -2688,7 +2688,7 @@ body{
   text-align: right;
   margin-right: 20px;
   color: #bcd0f7;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .timeline-row .timeline-time small {
   display: block;
@@ -2741,7 +2741,7 @@ body{
   line-height: 150%;
 }
 .timeline-row .timeline-content i {
-  font-size: 1.2rem;
+  font-size: 0.5rem;
   line-height: 100%;
   padding: 15px;
   -webkit-border-radius: 100px;
@@ -2843,6 +2843,10 @@ body{
   .timeline .timeline-row:nth-child(even) .timeline-content:after {
       display: none;
   }
+}
+
+.timeline-content h3{
+  font-size: 1.3rem;
 }
 
 /* .contact {
