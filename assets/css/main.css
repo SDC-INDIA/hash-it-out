@@ -1884,7 +1884,7 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: red;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
